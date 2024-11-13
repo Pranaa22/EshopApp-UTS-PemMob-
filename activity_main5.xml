@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buybutton"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Buy"
+        android:textColor="@color/white"
+        android:textSize="41px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rigntbuttonblack"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rigntbuttonblack"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="376dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/product"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/FavoriteButton"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/backbuttonblack"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="490dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Desc"
+        android:textColor="@color/black"
+        android:textSize="41px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="26dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/ProductName"
+        android:textColor="@color/black"
+        android:textSize="65px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/Spec"
+        android:textColor="@color/black"
+        android:textSize="45px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/Reviews"
+        android:textColor="@color/black"
+        android:textSize="45px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/Price"
+        android:textColor="@color/black"
+        android:textSize="45px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:layout_width="69dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/Estimate"
+        android:textColor="@color/Grey"
+        android:textSize="35px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

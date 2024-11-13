@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DE0000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="268dp"
+        android:layout_height="425dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_login"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="153dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/eshop_logo_ii"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="229dp"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/eshop_logo_iii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/Login"
+        android:textColor="@color/Red"
+        android:textSize="85px"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="166dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/Sign"
+        android:textColor="@color/black"
+        android:textSize="35px"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="215dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/raleway"
+        android:text="@string/ForgotPass"
+        android:textColor="@color/Blue"
+        android:textSize="30px"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="394dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/Asking"
+        android:textColor="@color/black"
+        android:textSize="28px"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="498dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/Regist"
+        android:textColor="@color/Blue"
+        android:textSize="28px"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="498dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
